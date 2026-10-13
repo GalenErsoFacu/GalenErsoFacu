@@ -1,16 +1,23 @@
-## Hi there 👋
+# Hi, I'm Facundo Sayago
 
-<!--
-**GalenErsoFacu/GalenErsoFacu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Audio professional, music producer, musician, and AI audio/video annotator from Argentina.
 
-Here are some ideas to get you started:
+## What I do
+- Live sound operation
+- Studio recording
+- Mixing and mastering
+- Music annotation and listening-based analysis
+- Audio transcription QA and speaker labeling
+- Python tools for audio analysis
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Current focus
+- Audio quality analysis
+- AI-assisted audio workflows
+- Whisper, FFmpeg, OpenCV, and PySceneDetect
+
+## Featured project
+- [audio-video-analysis-python](https://github.com/GalenErsoFacu/audio-video-analysis-python)
+
+## Links
+- [LinkedIn](https://www.linkedin.com/in/facusayago)
+- [GitHub](https://github.com/GalenErsoFacu)
