@@ -37,7 +37,9 @@ A Python-based audio analysis portfolio.
 1. **[WAV Audio Quality Analyzer](https://github.com/GalenErsoFacu/audio-video-analysis-python/blob/main/audio_quality_check.py)** — reads uncompressed PCM WAV files and reports duration, sample rate, channel count, bit depth, sample peak, RMS, and near-clipping sample counts.
 2. **[Music Annotation QA & CSV Export](https://github.com/GalenErsoFacu/audio-video-analysis-python/blob/main/music_annotation_qa.py)** — validates manually labeled musical sections, timestamps, instrument tags, chords, keys, and exports clean annotation data to CSV. Includes a synthetic example and automated tests.
 
-Both tools use Python's standard library and have automated regression tests in GitHub Actions.
+3. **[Audio Timeline Dynamics (MP3/WAV)](https://github.com/GalenErsoFacu/audio-video-analysis-python/blob/main/audio_timeline_analysis.py)** — measures per-second RMS, decoded sample peaks, quiet intervals, and large level changes; exports timestamped CSV reports. Requires FFmpeg and uses synthetic regression tests.
+
+The Python tools have automated tests; the audio timeline tool also requires FFmpeg for decoding.
 
 **In progress:** AI-assisted transcription and audiovisual analysis workflows. These are not yet presented as completed published modules.
 
