@@ -32,14 +32,14 @@ I'm actively developing my Python skills and expanding my public portfolio. My p
 
 A Python-based audio analysis portfolio.
 
-**Published and tested Python modules:**
+**Published Python modules:**
 
-1. **[WAV Audio Quality Analyzer](https://github.com/GalenErsoFacu/audio-video-analysis-python/blob/main/audio_quality_check.py)** — reads uncompressed PCM WAV files and reports duration, sample rate, channel count, bit depth, sample peak, RMS, and near-clipping sample counts.
-2. **[Music Annotation QA & CSV Export](https://github.com/GalenErsoFacu/audio-video-analysis-python/blob/main/music_annotation_qa.py)** — validates manually labeled musical sections, timestamps, instrument tags, chords, keys, and exports clean annotation data to CSV. Includes a synthetic example and automated tests.
+1. **[WAV Audio Quality Analyzer](https://github.com/GalenErsoFacu/audio-video-analysis-python/blob/main/audio_quality_check.py)** — checks PCM WAV duration, channel count, bit depth, sample peak, RMS, and near-clipping counts.
+2. **[Music Annotation QA & CSV Export](https://github.com/GalenErsoFacu/audio-video-analysis-python/blob/main/music_annotation_qa.py)** — validates manually labeled musical sections, timestamps, instruments, and other annotation fields; exports CSV.
+3. **[Audio Timeline Dynamics](https://github.com/GalenErsoFacu/audio-video-analysis-python/blob/main/audio_timeline_analysis.py)** — measures short-window RMS, decoded sample peaks, quiet intervals, and changes in level in MP3/WAV audio.
+4. **[Acoustic Transition Candidates (experimental)](https://github.com/GalenErsoFacu/audio-video-analysis-python/blob/main/music_transition_candidates.py)** — proposes listening points where sound statistics change. It does not automatically label verses or choruses.
 
-3. **[Audio Timeline Dynamics (MP3/WAV)](https://github.com/GalenErsoFacu/audio-video-analysis-python/blob/main/audio_timeline_analysis.py)** — measures per-second RMS, decoded sample peaks, quiet intervals, and large level changes; exports timestamped CSV reports. Requires FFmpeg and uses synthetic regression tests.
-
-The Python tools have automated tests; the audio timeline tool also requires FFmpeg for decoding.
+The tools include synthetic automated tests. MP3 decoding and the transition detector require FFmpeg.
 
 **In progress:** AI-assisted transcription and audiovisual analysis workflows. These are not yet presented as completed published modules.
 
