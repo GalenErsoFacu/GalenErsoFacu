@@ -32,10 +32,12 @@ I'm actively developing my Python skills and expanding my public portfolio. My p
 
 A Python-based audio analysis portfolio.
 
-**Working and locally tested:** a command-line tool that analyzes uncompressed PCM WAV files and reports:
-- Duration, sample rate, channel count, and bit depth
-- Sample peak and RMS levels in dBFS
-- Near-clipping sample counts
+**Published and tested Python modules:**
+
+1. **[WAV Audio Quality Analyzer](https://github.com/GalenErsoFacu/audio-video-analysis-python/blob/main/audio_quality_check.py)** — reads uncompressed PCM WAV files and reports duration, sample rate, channel count, bit depth, sample peak, RMS, and near-clipping sample counts.
+2. **[Music Annotation QA & CSV Export](https://github.com/GalenErsoFacu/audio-video-analysis-python/blob/main/music_annotation_qa.py)** — validates manually labeled musical sections, timestamps, instrument tags, chords, keys, and exports clean annotation data to CSV. Includes a synthetic example and automated tests.
+
+Both tools use Python's standard library and have automated regression tests in GitHub Actions.
 
 **In progress:** AI-assisted transcription and audiovisual analysis workflows. These are not yet presented as completed published modules.
 
